@@ -5,136 +5,178 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm-clone</title>
+  <link rel="stylesheet" href="public/index.css">
 </head>
 <body>
   <header>
-    <div class="top-left">
-      <a class = "heart" href="#">♥︎</a>
-      <span class="acronym">Neophobe Plebeian Mumpsimus</span>
-    </div>
-    <ul class = "top-links">
-      <li><a href="#">npm Enterprise</a></li>
-      <li><a href="#">features</a></li>
-      <li><a href="#">pricing</a></li>
-      <li><a href="#">documentation</a></li>
-      <li><a href="#">support</a></li>
-    </ul>
+
+      <div id="container">
+
+        <div class="top-left">
+            <a class="heart symbols" href="#">♥︎</a>
+            <span class="acronym symbols">Neophobe Plebeian Mumpsimus</span>
+        </div>
+
+        <div class="top_right">
+            <ul class = "top-links">
+              <li class="crumb" ><a href="#">npm Enterprise</a></li>
+              <li class="crumb" ><a href="#">Features</a></li>
+              <li class="crumb" ><a href="#">Pricing</a></li>
+              <li class="crumb" ><a href="#">Documentation</a></li>
+              <li class="crumb" ><a href="#">Support</a></li>
+            </ul>
+        </div>
+
+      </div>
+
+
 
     <div class="second-header">
-      <h1>npm</h1>
-      <img src="/Users/alexr/Desktop/coding/ironhack/cloning_npm/lab-html-module-exercise/starter-code/images/npm-logo.png" alt="">
-      <div class="search-bar">
-        <svg width="15px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" style="" size="" face="" color="" bgcolor="" background=""><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" style="" size="" face="" color="" bgcolor="" background=""><g id="Artboard-1" stroke="#777777" stroke-width="1.3" style="" size="" face="" color="" bgcolor="" background=""><g id="Group" style="" size="" face="" color="" bgcolor="" background=""><path d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z" id="Stroke-3" style="" size="" face="" color="" bgcolor="" background=""></path><path d="M11.4913,11.4913 L17.8683,17.8683" id="Stroke-7" style="" size="" face="" color="" bgcolor="" background=""></path></g></g></g></svg>
+      <!-- <h1>npm</h1> -->
+      <div class="sec-1">
+          <img class="logo1" src="/Users/alexr/Desktop/coding/ironhack/cloning_npm/lab-html-module-exercise/starter-code/images/npm-logo.png" alt="">
 
-        <input type="search" name="" value="">
       </div>
-      <div class="login">
-        <ul>
-          <li><a href="#">log in </a>
-              <span>or</span>
-              <a href="#">sign up</a>
 
-          </li>
-          <li>
-            <img src="images/bear-logo.png" alt="">
-          </li>
-        </ul>
+      <div class="sec-2">
+        <div class="search-bar">
+          <svg width="15px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" style="" size="" face="" color="" bgcolor="" background=""><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" style="" size="" face="" color="" bgcolor="" background=""><g id="Artboard-1" stroke="#777777" stroke-width="1.3" style="" size="" face="" color="" bgcolor="" background=""><g id="Group" style="" size="" face="" color="" bgcolor="" background=""><path d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z" id="Stroke-3" style="" size="" face="" color="" bgcolor="" background=""></path><path d="M11.4913,11.4913 L17.8683,17.8683" id="Stroke-7" style="" size="" face="" color="" bgcolor="" background=""></path></g></g></g></svg>
+          <input class="search1" type="search" placeholder="Search packages" name="" value="">
+        </div>
       </div>
-    </div>
+
+      <div class="sec-3">
+
+          <ul class="login2">
+            <li class="log-right"><a href="#">log in </a>
+                <span>or</span>
+                <a href="#">sign up</a>
+            </li>
+          </ul>
+      </div>
+
+    </div
   </header>
+  <br>
 
-  <div class="second">
-    <div class="title">
-      <h1>Build Amazing Things</h1>
-      <span>
-          npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</span>
-          <div class="create-account">
-            <a href="#">Sign Up</a>
-
+  <div id="container-main">
+    <div class="second ">
+      <div class="container2 fixer">
+          <div class="title">
+            <h1 class="title1-2">Build amazing things</h1>
+            <span class="span2">
+                npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</span>
+                <div class="create-account">
+                  <a id="create1" href="#">Sign Up</a>
+                </div>
           </div>
-    </div>
-  </div>
-<!-- group of friends -->
-    <div class="third">
-    <div class="people">
-      <img src="https://static.npmjs.com/images/collaboration-security.svg" alt="">
-    </div>
 
-    <div class="npmOrg">
-      <div class="third_title">
-        <h2>npm Orgs is powerful collaboration — for free</h2>
-      </div>
-
-      <div class="third_list">
-        <ul>
-          <li>Encourage code discovery and re-use within teams</li>
-          <li>Publish and control access to your own namespace</li>
-          <li>Manage public and private code with the same workflow</li>
-        </ul>
-      </div>
-      <div class="third_links">
-        <a href="#">Sign up for Orgs</a>
-        <p>or, <a href="#">Learn more about Orgs</a></p>
       </div>
     </div>
-  </div>
-  <!--  -->
+  <!-- group of friends -->
+      <div class="third">
 
-<!-- what is npm -->
-  <div class="fourth">
-    <div class="fourth_title">
-      <h2>What is npm?</h2>
-      <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+          <div class="npmOrg">
+            <div class="img-group fixer2">
+              <img class="img-g1" src="https://static.npmjs.com/images/collaboration-security.svg") no-repeat alt="">
+            </div>
+
+            <div class="img-2 fixer3">
+              <div class="third_title">
+                <h2 id="t-title">npm Orgs is powerful collaboration — for free</h2>
+              </div>
+
+              <div class="third_list">
+                <ul id="ul2-3">
+                  <li class="list2-3">Encourage code discovery and re-use within teams</li>
+                  <li class="list2-3">Publish and control access to your own namespace</li>
+                  <li class="list2-3">Manage public and private code with the same workflow</li>
+                </ul>
+              </div>
+              <div class="third_links">
+                <a id="create2"href="#">Sign up for Orgs</a>
+                <p class="p2-3">or, <a id="ap2" href="#">Learn more about Orgs</a></p>
+              </div>
+            </div>
+        </div>
     </div>
-    <div class="fourth_links">
-      <a href="#">Instal npm</a>
+
+
+    <!--  -->
+
+  <!-- what is npm -->
+    <div class="fourth">
+      <div class="container4">
+        <div class="title4 fixer4">
+          <div class="fourth_title">
+            <h2 class="title1-2">What is npm?</h2>
+            <p class="span4">Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+          </div>
+          <div class="create-account2">
+            <a id="create3"href="#">Instal npm</a>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
     </div>
+
   </div>
+
+
   <!--  -->
 
   <div class="fifth">
     <div class="fifth_title">
-      <h2>What can you make with 700,000 building blocks?</h2>
-      <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
+      <h2 class="last-title">What can you make with 700,000 building blocks?</h2>
+      <p id="fifthp">The npm registry hosts the world’s largest collection of free, reusable code.</p>
     </div>
 
     <div class="circles">
-      <div class="first_circle">
-        <img src="https://static.npmjs.com/images/binoculars-dot.svg" alt="">
-          <div class="first_circ_title">
-            <h3>Find</h3>
-            <p>
-            Libraries like
-            <a href="#">jQuery</a>,
-            <a href="#">Bootstrap</a>,
-            <a href="#">React</a>, and
-            <a href="#">Angular</a>, and components from frameworks such as
-            <a href="#">Ember</a>
+      <div id="inside-circle">
+        <div class="first_circle">
+          <img src="https://static.npmjs.com/images/binoculars-dot.svg" alt="">
+            <div class="first_circ_title">
+              <h3 class="circle1-title">Find</h3>
+              <p class="circle1-p">
+              Libraries like
+              <a id="find-tag" href="#">jQuery</a>,
+              <a id="find-tag" href="#">Bootstrap</a>,
+              <a id="find-tag" href="#">React</a>, and
+              <a id="find-tag" href="#">Angular</a>, and components from frameworks such as
+              <a id="find-tag" href="#">Ember</a>
+              </p>
+            </div>
+        </div>
+        <div class="first_circle">
+            <img src="https://static.npmjs.com/images/mountain-dot.svg" alt="">
+            <div class="first_circ_title">
+              <h3 class="circle1-title">Discover</h3>
+              <p class="circle1-p2">
+                  Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.
+              </p>
+            </div>
+        </div>
+
+        <div class="third_circle">
+          <img src="https://static.npmjs.com/images/rucksack-dot.svg" alt="">
+
+          <div class="third_cicle_title">
+            <h3 class="circle1-title">Build</h3>
+            <p class="circle1-p3">
+            Assemble packages like building blocks to quickly develop awesome new projects.
             </p>
           </div>
-      </div>
-      <div class="second_circle">
-          <img src="https://static.npmjs.com/images/mountain-dot.svg" alt="">
-          <div class="second_cicle_title">
-            <h3>Discover</h3>
-            <p>
-                Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.
-            </p>
-        </div>
 
-      <div class="third_circle">
-        <img src="https://static.npmjs.com/images/rucksack-dot.svg" alt="">
-
-        <div class="third_cicle_title">
-          <h3>Build</h3>
-          <p>
-          Assemble packages like building blocks to quickly develop awesome new projects.
-          </p>
         </div>
 
       </div>
 
-    </div>
+
+
 
   </div>
 
